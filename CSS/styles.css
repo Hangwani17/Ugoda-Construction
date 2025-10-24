@@ -241,12 +241,16 @@ img {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
-    color: white;
-    padding: clamp(6rem, 15vw, 8rem) 0 clamp(4rem, 10vw, 5rem);
+    height: 100vh;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+        url('../images/Hero-image.jpeg') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    position: relative;
-    overflow: hidden;
+    color: white;
+    padding: 0 1rem;
 }
 
 .hero-content h1 {
